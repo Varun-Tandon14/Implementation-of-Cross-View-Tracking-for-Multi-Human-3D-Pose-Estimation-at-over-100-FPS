@@ -19,7 +19,7 @@ Please download the dataset in Onedrive and extract the zip into a folder named 
 
 ## Implementation details:
 1. Thanks to the author of the original repo for making the visualization and calibration code available. The graph partitioning problem solver was also provided by the author [here](https://gist.github.com/longcw/654a86ffe11122079040a7615c99a627#file-bip_solver-py-L9). Kudos.
-2. I have extended the original camera.py and calibration.py to support my implementation. To make the code very easy to use I put everything from config, other helper functions, algorithm and visualization inside a single notebook. 
+2. I have extended the original camera.py and calibration.py to support my implementation. To make the code very easy to use I put everything from config, other helper functions, algorithms and visualization inside a single notebook. 
 3. The original repo suggests using vispy but installation is sometimes complicated. I thought it will be more convenient to use matplotlib animation therefore we need not worry about vispy here.
 4. At the end of the run of the algorithm, we save the details in the log file. Please see it to get a feel of the algorithm. 
 5. The code runs below 100 FPS as it is severely unoptimized now. This code was meant to quickly implement the paper to the best of my ability. 

@@ -27,7 +27,7 @@ Please download the dataset in Onedrive and extract the zip into a folder named 
 7. After looking at the IDs in the annotation_3D we see that the authors probably implemented ReID to get respective results. I have not implemented ReiD since it was not mentioned in the algo. 1 in the paper.    
 
 ## Result Images:
-Please see the tracking results for a single timestamp (at 41.72 sec) below:
+Please see the tracking results for a single timestamp (at 41.72 sec) from 3 different angles below:
 
 <p>
   <img  src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/blob/main/images/timestamp_41_12_capture.jpg" alt="Android Registration" width="600" />

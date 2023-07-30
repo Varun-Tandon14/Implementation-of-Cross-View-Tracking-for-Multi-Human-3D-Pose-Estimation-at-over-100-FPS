@@ -27,7 +27,14 @@ Please download the dataset in Onedrive and extract the zip into a folder named 
 7. After looking at the IDs in the annotation_3D we see that the authors probably implemented ReID to get respective results. I have not implemented ReiD since it was not mentioned in the algo. 1 in the paper.    
 
 ## Result Images:
-Please see tracking results for a single timestamp (at 41.72 sec) below:
-![Angle 1](https://github.com/[Varun-Tandon14]/[Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS]/blob/[main]/image.jpg?raw=true)
+Please see the tracking results for a single timestamp (at 41.72 sec) below:
+
+<p>
+  <img  src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/blob/main/images/timestamp_41_12_capture.jpg" alt="Android Registration" width="600" />
+  <img  src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/blob/main/images/timestamp_41_12_capture_angle_2.jpg" alt="Android Registration" width="600"/>
+  <img  src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/blob/main/images/timestamp_41_12_capture_angle_3.jpg" alt="Android Registration" width="600"/>
+</p>
+
 ## Additional Note: 
+
 The repo is currently unlicensed as the license information is unclear to me in the original repo. I will update this repo when that becomes clear. I have no affiliation with AiFi Inc.

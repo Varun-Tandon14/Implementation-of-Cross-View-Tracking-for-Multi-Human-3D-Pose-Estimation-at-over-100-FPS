@@ -266,13 +266,18 @@ class Camera(object):
     def location(self):
         """Returns the 3D location of the camera"""
         """ 
-        ## Information from https://www.researchgate.net/post/Why-does-translation-vector-of-an-extrinsic-matrix-not-correspond-to-the-camera-position
-        This only works if extrinsic matrix is given of the form E = [R -R*t]. For this E the camera is centred at t.
+        This only works if extrinsic matrix is given of the form E = [R -R*t].
+        For this E is already of the the form E = [R Camera location in world coordinate] 
         """
         return self.Tw[:3, -1]
 
-    def camera_location_in_world_coord(self):
-        """
+    def camera_location_in_world_coord_for_extrinaic_form_e_equals_r_t(self):
+        """ 
+        Note:If extrinsic matrix is of the form: E = [R | t] 
+        use this function. If the form is E = [R | -R*t] simple use 
+        the above function. Why? Then see the following calculation
+        Calc:
+        Assuming E is of the form E = [R | t] 
         To find the position C of the camera, we solve
         Camera coordinate = Extrinsic matrix * world coordinate 
         Camera coordinate = R * World coordinate + T  

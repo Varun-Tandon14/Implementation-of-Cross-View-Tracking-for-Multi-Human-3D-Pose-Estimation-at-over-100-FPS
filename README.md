@@ -1,7 +1,7 @@
 # Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS
 (Unofficial) Implementation of the paper "Cross-View Tracking for Multi-Human 3D Pose Estimation at over 100 FPS" Chen et al.
-
-Before starting please visit the [original repo](https://github.com/longcw/crossview_3d_pose_tracking/tree/master) by the authors. Wherever possible I try to follow the same structure as the authors. I will highlight the changes in the structure as when required. Mostly the dependencies are the same but most notably we use matplotlib rather than vispy for 3D visualization. I have provided a list of dependencies below. Thanks to the authors for their awesome work.
+[Paper link](https://arxiv.org/abs/2003.03972).
+Before starting please visit the [original repo](https://github.com/longcw/crossview_3d_pose_tracking/tree/master). Wherever possible I try to follow the same structure as the authors. I will highlight the changes in the structure as when required. Mostly the dependencies are the same but most notably we use matplotlib rather than vispy for 3D visualization. I have provided a list of dependencies below. Thanks to the authors for their awesome work.
 
 ## Get dataset:
 Currently, the code is only tested for the Campus dataset. But since the values are not hard coded this code should ideally run without errors for other datasets as well. 
@@ -23,7 +23,7 @@ Please download the dataset in Onedrive and extract the zip into a folder named 
 3. The original repo suggests using vispy but installation is sometimes complicated. I thought it will be more convenient to use matplotlib animation therefore we need not worry about vispy here.
 4. At the end of the run of the algorithm, we save the details in the log file. Please see it to get a feel of the algorithm. 
 5. The code runs below 100 FPS as it is severely unoptimized now. This code was meant to quickly implement the paper to the best of my ability. 
-6. The authors provide the original IDs for the 2D key points (detections) and 3D poses (targets) in the files annotation_2d and annotation_3d respectively. In this current implementation, we only use the 2D pose keypoints only and not the IDs. The IDs are assigned in the algo. (Not currently visible in logs). 
+6. The authors provide the original IDs for the 2D key points (detections) and 3D poses (targets) in the files annotation_2d and annotation_3d respectively. In this current implementation, we only use the 2D pose keypoints only and not the IDs as provided in the annotation_2d (as they are preassigned and you could directly use them for triangulation).
 7. After looking at the IDs in the annotation_3D we see that the authors probably implemented ReID to get respective results. I have not implemented ReiD since it was not mentioned in the algo. 1 in the paper.    
 
 ## Result:

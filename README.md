@@ -26,15 +26,26 @@ Please download the dataset in Onedrive and extract the zip into a folder named 
 6. The authors provide the original IDs for the 2D key points (detections) and 3D poses (targets) in the files annotation_2d and annotation_3d respectively. In this current implementation, we only use the 2D pose keypoints only and not the IDs as provided in the annotation_2d (as they are preassigned and you could directly use them for triangulation).
 7. After looking at the IDs in the annotation_3D we see that the authors probably implemented ReID to get respective results. I have not implemented ReiD since it was not mentioned in the algo. 1 in the paper.    
 
-## Result:
+## Qualitative results (campus dataset):
+
+### Screenshot for a single timestamp: 
 Please see the tracking results for a single timestamp (at 41.72 sec) from 3 different angles below:
+<div align="center">
+  <img src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/blob/main/images/timestamp_41_12_capture.jpg" alt="Android Registration" width="600" />
+</div>
+<div align="center">
+  <img src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/blob/main/images/timestamp_41_12_capture_angle_2.jpg" alt="Android Registration" width="600"/>
+</div>
+<div align="center">
+  <img src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/blob/main/images/timestamp_41_12_capture_angle_3.jpg" alt="Android Registration" width="600"/>
+</div>
 
-<p>
-  <img  src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/blob/main/images/timestamp_41_12_capture.jpg" alt="Android Registration" width="600" />
-  <img  src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/blob/main/images/timestamp_41_12_capture_angle_2.jpg" alt="Android Registration" width="600"/>
-  <img  src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/blob/main/images/timestamp_41_12_capture_angle_3.jpg" alt="Android Registration" width="600"/>
-</p>
+### Complete animation:
 
+<div align="center">
+  <video src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/assets/24519234/665960a6-8074-46ed-a8aa-5443aa17aaf8" width="600" />
+</div>
+    
 ## Additional Note: 
 
 The repo is currently unlicensed as the license information is unclear to me in the original repo. I will update this repo when that becomes clear. I have no affiliation with AiFi Inc.

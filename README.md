@@ -1,7 +1,7 @@
 # Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS
-(Unofficial) Implementation of the paper "Cross-View Tracking for Multi-Human 3D Pose Estimation at over 100 FPS" Chen et al.
+(Unofficial) Implementation of the paper "Cross-View Tracking for Multi-Human 3D Pose Estimation at over 100 FPS" by Chen et al.
 [Paper link](https://arxiv.org/abs/2003.03972).
-Before starting please visit the [original repo](https://github.com/longcw/crossview_3d_pose_tracking/tree/master). Wherever possible I try to follow the same structure as the authors. I will highlight the changes in the structure as when required. Mostly the dependencies are the same but most notably we use matplotlib rather than vispy for 3D visualization. I have provided a list of dependencies below. Thanks to the authors for their awesome work.
+Before starting please visit the [original repo](https://github.com/longcw/crossview_3d_pose_tracking/tree/master). Wherever possible I try to follow the same structure as the authors. I will highlight the changes in the structure when required. Mostly the dependencies are the same but most notably we use matplotlib rather than vispy for 3D visualization. I have provided a list of dependencies below. Thanks to the authors for their excellent work.
 
 ## Get dataset:
 Currently, the code is only tested for the Campus dataset. But since the values are not hard coded this code should ideally run without errors for other datasets as well. 

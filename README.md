@@ -43,7 +43,7 @@ Please see the tracking results for a single timestamp (at 41.72 sec) from 3 dif
 ### Complete animation:
 
 <div align="center">
-  <video src="https://github.com/Varun-Tandon14/Implementation-of-the-paper-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/assets/24519234/665960a6-8074-46ed-a8aa-5443aa17aaf8" alt="Android Registration" width="600" />
+  <video src="https://github.com/Varun-Tandon14/Implementation-of-Cross-View-Tracking-for-Multi-Human-3D-Pose-Estimation-at-over-100-FPS/assets/24519234/992a1aa6-2971-4793-b88b-3938d664d602" alt="Android Registration" width="600" />
 </div>
     
 ## Additional Note: 

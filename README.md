@@ -50,9 +50,9 @@ Please see the tracking results for a single timestamp (at 41.72 sec) from 3 dif
 
 1. Implement ReID to deal with the person re-entering the scene.
 2. Optimize the codebase to support higher execution speeds.
-3. Improve velocity estimation. (currently calculated by two-point (time) difference rather than multi-point linear regression)
-4. Improved triangulation. Currently, we use linear eigen ideally we should at least use non-iterative L2 methods. Please help us [mrcal.](http://mrcal.secretsauce.net/triangulation.html) 
-5. Improve visualization to include skeleton or [SMPL models](https://smpl.is.tue.mpg.de/).
+3. Improve velocity estimation:- Currently, calculated by two-point difference rather than multi-point linear regression.
+4. Refine triangulation methodology:- Currently, we use linear eigen ideally we should atleast use non-iterative L2 methods. Please help us [mrcal.](http://mrcal.secretsauce.net/triangulation.html) 
+5. Enhance visualization to include skeleton or [SMPL models](https://smpl.is.tue.mpg.de/).
 6. Add quantitative results.
 
 ## Additional Note: 

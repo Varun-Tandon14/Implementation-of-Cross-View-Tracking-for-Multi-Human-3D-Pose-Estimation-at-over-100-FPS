@@ -5,7 +5,7 @@ Before starting please visit the [original repo](https://github.com/longcw/cross
 
 ## Get dataset:
 Currently, the code is only tested for the Campus dataset. But since the values are not hard coded this code should ideally run without errors for other datasets as well.
-[Campus dataset info](https://www.epfl.ch/labs/cvlab/data/data-pom-index-php/) - [Onedrive download link](https://onedrive.live.com/?authkey=%21AKW9YCvYTyBLxL8&id=415F4E596E8C76DB%213351&cid=415F4E596E8C76DB)
+[Campus dataset info link](https://www.epfl.ch/labs/cvlab/data/data-pom-index-php/) - [Campus dataset download link](https://drive.google.com/file/d/1aZ-Ld4ZcAe_qNkhVR53nFJogtc-9egip/view?usp=sharing)
 
 Please download the dataset in Onedrive and extract the zip into a folder named Campus_Seq1. The dataset folder should therefore look like [this](https://github.com/longcw/crossview_3d_pose_tracking/tree/master#data-structure).
 
